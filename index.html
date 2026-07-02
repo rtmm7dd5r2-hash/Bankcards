@@ -34,9 +34,10 @@
 }
 *{margin:0;padding:0;box-sizing:border-box;-webkit-tap-highlight-color:transparent}
 html,body{height:100%}
+html{background:#0B0B0D} /* закрашивает зону home-индикатора iPhone */
 body{
-  font-family:var(--sans); color:var(--text); background:var(--bg0);
-  background:linear-gradient(180deg,#0B0B0D 0%,#121214 100%) fixed;
+  font-family:var(--sans); color:var(--text); background-color:var(--bg0);
+  background-image:linear-gradient(180deg,#0B0B0D 0%,#121214 100%);
   overscroll-behavior:none; -webkit-font-smoothing:antialiased;
   touch-action:manipulation; user-select:none; -webkit-user-select:none;
 }
